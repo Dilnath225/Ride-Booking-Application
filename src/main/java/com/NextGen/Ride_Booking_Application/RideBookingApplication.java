@@ -10,4 +10,9 @@ public class RideBookingApplication {
 		SpringApplication.run(RideBookingApplication.class, args);
 	}
 
+	 private String name;
+	private String surname;
+	private int numofriddes;
+
 }
+
