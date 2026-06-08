@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface DriverRepository extends JpaRepository<Driver, Long> {
-    List<Driver> findByAvailable(boolean available);
+    List<Driver> findByAvailable(Boolean available);
 }
